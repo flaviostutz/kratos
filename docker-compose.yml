@@ -1,11 +1,3 @@
-# kratos
-Ory Kratos container with configurations by ENV variables
-
-## Usage
-
-* Create a ```docker-compose.yml```
-
-```
 version: '3.7'
 
 services:
@@ -41,12 +33,4 @@ services:
 
 volumes:
   kratos-sqlite:
-
-```
-
-* Run ```docker-compose up --build```
-
-## Development Tips
-
-This container is not working yet. Seems like a problem in Kratos (redirections comes empty)
 
